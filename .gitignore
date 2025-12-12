@@ -1,0 +1,9 @@
+MemorySentry.egg-info/
+msentry.egg-info/
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.DS_Store
+venv/
