@@ -14,3 +14,8 @@ It sits in the background, filtering out noise (like Chrome tabs) and alerting y
 2. Run the installation command:
    ```bash
    pip3 install .
+3. Then, from anywhere you can run the command:
+   ```bash
+   msentry
+4. You have successfully started Memory Sentry! Now wait until it detects a memory leak.
+5. You can use Ctrl + C to quit Memory Sentry within the CLI.
