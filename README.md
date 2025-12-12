@@ -19,3 +19,17 @@ It sits in the background, filtering out noise (like Chrome tabs) and alerting y
    msentry
 4. You have successfully started Memory Sentry! Now wait until it detects a memory leak.
 5. You can use Ctrl + C to quit Memory Sentry within the CLI.
+
+## Testing
+
+1. In case you'd like to test Memory Sentry on a simulated memory leak, I have you covered!
+2. Simply run this command in a separate terminal instance:
+   ```bash
+   mvictim
+3. Then, as usual, run:
+   ```bash
+   msentry
+4. Wait until the strikes, and eventually the popup, show up, and voila, the leak is detected!
+5. Make sure to stop both programs once you're done or else they will run forever. Do so with:
+   ```bash
+   Ctrl + C
