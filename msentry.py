@@ -107,8 +107,9 @@ def main():
 ▐▌  ▐▌▐▛▀▀▘▐▌  ▐▌▐▌ ▐▌▐▛▀▚▖ ▐▌       ▝▀▚▖▐▛▀▀▘▐▌ ▝▜▌  █  ▐▛▀▚▖ ▐▌  
 ▐▌  ▐▌▐▙▄▄▖▐▌  ▐▌▝▚▄▞▘▐▌ ▐▌ ▐▌      ▗▄▄▞▘▐▙▄▄▖▐▌  ▐▌  █  ▐▌ ▐▌ ▐▌  
     """)
-    print("Running...")
     print("3 Strike mode on.")
+    print("Running...")
+    
     try:
         while True:
             scan_processes()
