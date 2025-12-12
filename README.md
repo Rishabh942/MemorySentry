@@ -13,7 +13,7 @@ It sits in the background, filtering out noise (like Chrome tabs) and alerting y
 1. Open Terminal in this folder.
 2. Run the installation command:
    ```bash
-   pip3 install .
+   pip install .
 3. Then, from anywhere you can run the command:
    ```bash
    msentry
