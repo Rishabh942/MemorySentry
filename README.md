@@ -1,12 +1,12 @@
 # Memory Sentry
 
 A heuristic-based memory leak detector for macOS. 
-It sits in the background, filtering out noise (like Chrome tabs) and alerting you only when a process shows a definitive "Rising Floor" leak pattern.
+It sits in the background, filtering out noise (like Chrome tabs) and alerting you only when a process shows a definitive leak pattern as determined by a custom algorithm.
 
 ## Features
-* **Smart Filtering:** Distinguishes between "Heavy Usage" (YouTube) and "Memory Leaks" (Slope Detection).
-* **Browser Aware:** Applies stricter probation logic to Chrome/Electron helpers to avoid false positives.
-* **Critical Alerts:** Uses native macOS modal popups so you never miss a memory leak.
+* **Smart Filtering:** Distinguishes between "Heavy Usage" (YouTube) and "Memory Leaks".
+* **Browser Aware:** Applies stricter logic to Chrome/Electron helpers to avoid false positives.
+* **Critical Alerts:** Uses native macOS popups so you never miss a memory leak.
 
 ## Installation
 
