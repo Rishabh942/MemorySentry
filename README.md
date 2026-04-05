@@ -29,7 +29,7 @@ It sits in the background, filtering out noise (like Chrome tabs) and alerting y
 3. Then, as usual, run:
    ```bash
    msentry
-4. Wait until the strikes, and eventually the popup, show up, and voila, the leak is detected!
+4. Wait until the strikes, and eventually the popup appear, and voila, the leak is detected!
 5. Make sure to stop both programs once you're done or else they will run forever. Do so with:
    ```bash
    Ctrl + C
